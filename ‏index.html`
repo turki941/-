@@ -1,0 +1,115 @@
+#### ملف HTML - index.html:
+
+‏```html
+‏<!DOCTYPE html>
+‏<html lang="ar">
+‏<head>
+‏    <meta charset="UTF-8">
+‏    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+‏    <title>موقعي الشخصي</title>
+‏    <link rel="stylesheet" href="style.css">
+‏</head>
+‏<body>
+‏    <header>
+‏        <nav>
+‏            <ul>
+‏                <li><a href="#">الرئيسية</a></li>
+‏                <li><a href="#">عن الموقع</a></li>
+‏                <li><a href="#">المقالات</a></li>
+‏                <li><a href="#">تواصل معنا</a></li>
+‏            </ul>
+‏        </nav>
+‏    </header>
+‏    <main>
+‏        <section class="intro">
+‏            <h1>مرحباً بكم في موقعي الشخصي</h1>
+‏            <p>هذا هو الموقع الشخصي الخاص بي حيث يمكنكم العثور على معلومات حولي والمقالات التي أكتبها.</p>
+‏        </section>
+‏        <section class="articles">
+‏            <h2>أحدث المقالات</h2>
+‏            <article>
+‏                <h3>مقالة العنوان 1</h3>
+‏                <p>ملخص للمقالة 1...</p>
+‏                <a href="#">قراءة المزيد</a>
+‏            </article>
+‏            <article>
+‏                <h3>مقالة العنوان 2</h3>
+‏                <p>ملخص للمقالة 2...</p>
+‏                <a href="#">قراءة المزيد</a>
+‏            </article>
+‏        </section>
+‏    </main>
+‏    <footer>
+‏        <p>&copy; 2024 موقعي الشخصي. جميع الحقوق محفوظة.</p>
+‏    </footer>
+‏</body>
+‏</html>
+```
+
+#### ملف CSS - style.css:
+
+‏```css
+‏body {
+‏    font-family: 'Arial', sans-serif;
+‏    margin: 0;
+‏    padding: 0;
+‏    line-height: 1.6;
+}
+
+‏header {
+‏    background: #333;
+‏    color: #fff;
+‏    padding: 10px 0;
+}
+
+‏header nav ul {
+‏    list-style: none;
+‏    padding: 0;
+‏    text-align: center;
+}
+
+‏header nav ul li {
+‏    display: inline;
+‏    margin: 0 15px;
+}
+
+‏header nav ul li a {
+‏    color: #fff;
+‏    text-decoration: none;
+}
+
+‏.intro {
+‏    background: #f4f4f4;
+‏    padding: 20px;
+‏    text-align: center;
+}
+
+‏.articles {
+‏    padding: 20px;
+}
+
+‏.articles h2 {
+‏    text-align: center;
+}
+
+‏.articles article {
+‏    background: #fff;
+‏    border: 1px solid #ddd;
+‏    margin: 20px 0;
+‏    padding: 10px;
+}
+
+‏.articles article h3 {
+‏    margin-top: 0;
+}
+
+‏footer {
+‏    background: #333;
+‏    color: #fff;
+‏    text-align: center;
+‏    padding: 10px 0;
+‏    position: fixed;
+‏    bottom: 0;
+‏    width: 100%;
+}
+```
